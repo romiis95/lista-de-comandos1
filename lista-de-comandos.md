@@ -138,8 +138,48 @@ texto. tambien muestra varios archivos.
       5425   PTS/2   00:00:00  bash 
       5469   pts/2   00:00:00  ps
 
+  
    ***PS AUX**: Te muestra todos los procesos en el sistema linux
 
+   
+   
    ***PS top**: Este comando te ordena un listado del uso del cpu, mostrando el proseso que consume mas recursos colocandose en la parte superior.
 
+   
+
+  ## claves  /   funciones
+
+  ***Ps -k:** te finaliza un proceso que estes ejecutando.
+
+  ***Ps -M:** te ordena la lista por uso de memoria.
+
+  ***Ps -N:**Te ordena una lista de por PID.
+
+
+  ***Ps -r:**te cambia la prioridad de un proceso.
+   
+   
    ***KILL**: Este comando es un operativo de unix, kill es utilizado para enviar msj a los procesos ejecutados en el sistema. Por defecto el msj que se le envio da una señal determinada que limpia su estado y sale del proceso.
+
+
+    Ej: kill 5767
+
+
+  
+    **PS -A:** Te crea una lista ordenada de todos los procesos activos.
+
+
+
+   ***Ps -U:** (root u)Este proceso te muestra los permisos del root. 
+
+
+   ***Ps -T**: el comando ps -T, te imprime los distintos procesos activos que se ejecutan en la termnal.
+
+
+   ***Ps -C** **NOMBRE-PROCESO*: 
+   Este proceso te filtra la lista por nombre del proceso. no obstante, este comando tambien te muestra los procesos hijos del proceso especificado.
+
+
+
+   
+
